@@ -131,6 +131,7 @@ img{
         border-top-left-radius: 0%;
         padding: 1% 18%;
         box-shadow: none;
+        width: 15rem;
     }
     .white-div{
         padding-right: 6%;
@@ -145,5 +146,8 @@ img{
     }
     .mini-divs{
         width: 16.5rem;
+    }
+    button{
+        width: 18rem;
     }
 }
