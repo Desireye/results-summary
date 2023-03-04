@@ -1,8 +1,10 @@
+body{
+    overflow-x: hidden;
+}
 .container {
     display: flex;    
     justify-content: center;
     margin-top: 9rem;
-    flex-grow: 0;
 }
 .purple-div{
     height: 27rem;
@@ -136,14 +138,13 @@ a:hover{
         flex-direction: column;
         margin-top: -1rem;
         margin-left: -0.5rem;
-        overflow-x: hidden;
         width: 100%;
     }
     .purple-div{
         padding-bottom: 2rem;
         border-top-right-radius: 0%;
         border-top-left-radius: 0%;
-        padding: 1% 18%;
+        padding: 1% 18.5%;
         box-shadow: none;
         width: 14.5rem;
     }
@@ -152,7 +153,7 @@ a:hover{
         border-top-right-radius: 0%;
         border-top-left-radius: 0%;
         box-shadow: none;
-        margin-left: 2%;
+        margin-left: 3%;
         padding-bottom: 7%;
     }
     .circle-div{
@@ -166,6 +167,6 @@ a:hover{
     }
     h5{
         position: relative;
-        left: 20%;
+        left: 13%;
     }
 }
