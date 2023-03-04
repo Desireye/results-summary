@@ -123,6 +123,7 @@ h5:hover{
 }
 a{
     text-decoration: overline;
+    color: hsl(234, 85%, 45%);
 }
 a:hover{
     color: hsl(39, 100%, 56%);
