@@ -121,7 +121,7 @@ h5{
     font-family: 'Hanken Grotesk', sans-serif;
     position: relative;
     margin-left: 45rem;
-    margin-top: 7rem;
+    margin-top: 6rem;
 }
 h5:hover{
     color: hsl(166, 100%, 37%);
@@ -168,8 +168,5 @@ a:hover{
     }
     button{
         width: 19rem;
-    }
-    h5{
-        position: relative;
     }
 }
