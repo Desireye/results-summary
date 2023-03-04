@@ -114,6 +114,19 @@ img{
     top: 0.25rem;
     right: 0.2rem;
 }
+h5{
+    color: hsl(234, 85%, 45%);
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+h5:hover{
+    color: hsl(166, 100%, 37%);
+}
+a{
+    text-decoration: overline;
+}
+a:hover{
+    color: hsl(39, 100%, 56%);
+}
 
 /*Responsiveness!*/
 @media screen and (max-width: 375px){
@@ -122,7 +135,7 @@ img{
         flex-direction: column;
         margin-top: -1rem;
         margin-left: -0.5rem;
-        overflow-x: h;
+        overflow-x: hidden;
         width: 100%;
     }
     .purple-div{
@@ -131,7 +144,7 @@ img{
         border-top-left-radius: 0%;
         padding: 1% 18%;
         box-shadow: none;
-        width: 15rem;
+        width: 14.5rem;
     }
     .white-div{
         padding-right: 6%;
@@ -149,5 +162,9 @@ img{
     }
     button{
         width: 18rem;
+    }
+    h5{
+        position: relative;
+        left: 20%;
     }
 }
