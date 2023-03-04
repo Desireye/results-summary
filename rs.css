@@ -116,7 +116,7 @@ img{
 }
 
 /*Responsiveness!*/
-@media screen and (max-width: 375.20px){
+@media screen and (max-width: 375px){
     .container{
         display: flex;
         flex-direction: column;
