@@ -1,10 +1,7 @@
-body{
-    overflow: hidden;
-}
 .container {
     display: flex;    
     justify-content: center;
-    margin-top: 15rem;
+    margin-top: 10rem;
 }
 .purple-div{
     height: 27rem;
