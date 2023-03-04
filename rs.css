@@ -1,7 +1,3 @@
-*{
-    outline: 1px solid red;
-}
-
 body{
     overflow: hidden;
 }
@@ -109,6 +105,9 @@ h2{
     color: hsl(234, 85%, 45%);
     font-weight: 700;
 }
+.percent{
+    padding-top: 1.5%;
+}
 .percent-1{
     color: hsl(224, 30%, 27%);
 }
@@ -117,12 +116,15 @@ h2{
 }
 img{
     position: relative;
-    top: 0.25rem;
+    top: 0.3rem;
     right: 0.2rem;
 }
 h5{
     color: hsl(234, 85%, 45%);
     font-family: 'Hanken Grotesk', sans-serif;
+    position: relative;
+    margin-left: 45rem;
+    margin-top: 7rem;
 }
 h5:hover{
     color: hsl(166, 100%, 37%);
@@ -150,27 +152,27 @@ a:hover{
         border-top-left-radius: 0%;
         padding: 1% 18.5%;
         box-shadow: none;
-        width: 14.5rem;
+        width: 14.4rem;
+        margin-left: 0.3%;
     }
     .white-div{
-        padding-right: 6%;
+        padding-right: 8.6%;
         border-top-right-radius: 0%;
         border-top-left-radius: 0%;
         box-shadow: none;
-        margin-left: 3%;
+        margin-left: 0.2%;
         padding-bottom: 7%;
     }
     .circle-div{
         margin-left: rem;
     }
     .mini-divs{
-        width: 16.5rem;
+        width: 17rem;
     }
     button{
-        width: 18rem;
+        width: 19rem;
     }
     h5{
         position: relative;
-        left: 13%;
     }
 }
