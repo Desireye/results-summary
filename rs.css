@@ -122,7 +122,6 @@ footer{
     color: hsl(234, 85%, 45%);
     font-family: 'Hanken Grotesk', sans-serif;
     text-align: center;
-    margin-top: 6rem;
 }
 h5:hover{
     color: hsl(166, 100%, 37%);
@@ -137,6 +136,10 @@ a:hover{
 
 /*Responsiveness!*/
 @media screen and (max-width: 375px){
+     body{
+        display: grid;
+        place-items: center;
+   }
     main{
         display: flex;
         flex-direction: column;
