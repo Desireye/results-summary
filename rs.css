@@ -1,7 +1,9 @@
-.container {
+body{
+    min-height: 100vh;
+}
+main{
     display: flex;    
     justify-content: center;
-    margin-top: 10rem;
 }
 .purple-div{
     height: 27rem;
@@ -116,11 +118,10 @@ img{
     top: 0.3rem;
     right: 0.2rem;
 }
-h5{
+footer{
     color: hsl(234, 85%, 45%);
     font-family: 'Hanken Grotesk', sans-serif;
-    position: relative;
-    margin-left: 45rem;
+    text-align: center;
     margin-top: 6rem;
 }
 h5:hover{
@@ -136,7 +137,7 @@ a:hover{
 
 /*Responsiveness!*/
 @media screen and (max-width: 375px){
-    .container{
+    main{
         display: flex;
         flex-direction: column;
         margin-top: -1rem;
@@ -168,9 +169,5 @@ a:hover{
     }
     button{
         width: 19rem;
-    }
-     h5{
-        margin-top: 1rem;
-        margin-left: 13rem;
     }
 }
