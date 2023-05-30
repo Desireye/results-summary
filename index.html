@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=2.0">
-    <title>Results Summary Page</title>
+    <title>Result Summary</title>
     <link rel="stylesheet" href="./rs.css">
+    <link rel="icon" href="./assets/images/favicon-32x32.png">
     <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -13,7 +14,7 @@
         <div class="purple-div">
             <h3 style="color: hsl(241, 100%, 89%);">Your Result</h3>
             <div class="circle-div"> 
-                <span class="num-1">76</span> <p class="num-2">of 100</p> 
+                <span id="result">76</span> <p class="num-2">of 100</p> 
             </div>
             <h2>Great</h2>
             <p class="text">You scored higher than 65% of the people who have taken these tests</p>
@@ -26,7 +27,7 @@
                     <img src="./icon-reaction.svg" alt="">
                     Reaction</div> 
                 <div class="percent"> 
-                    <b class="percent-1">80 </b> <b class="percent-2">/ 100</b>
+                    <span id="percent-r"></span> <span class="percent-2">/ 100</span>
                 </div>
             </div>
             <div class="mini-divs" id="yellow-div">
@@ -34,15 +35,15 @@
                     <img src="./icon-memory.svg" alt="">
                     Memory</div> 
                 <div class="percent"> 
-                    <b class="percent-1">92 </b> <b class="percent-2">/ 100</b>
+                    <span id="percent-m"></span> <span class="percent-2">/ 100</span>
                 </div>
             </div>
             <div class="mini-divs" id="green-div">
                 <div>
                     <img src="./icon-verbal.svg" alt="">
                     Verbal</div> 
-                <div class="percent"> 
-                    <b class="percent-1">61 </b> <b class="percent-2">/ 100</b>
+                <div class="percent">  
+                    <span id="percent-ve"></span> <span class="percent-2">/ 100</span>
                 </div>
             </div>
             <div class="mini-divs" id="blue-div">
@@ -50,19 +51,19 @@
                     <img src="./icon-visual.svg" alt="">
                     Visual</div> 
                 <div class="percent"> 
-                    <b class="percent-1">72 </b> <b class="percent-2">/ 100</b>
+                    <span id="percent-vi"></span> <span class="percent-2">/ 100</span>
                 </div>
             </div>
-            <button>Continue</button>
+            <button onclick="calc()">Continue</button>
         </div>
     </main>
-    
+
     <footer>
         <h5>
             Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a> and Coded by <a href="https://github.com/Desireye">Desireye</a>
         </h5>
     </footer>
-    
-    <script src="./test.js"></script>
+
+    <script src="./rs.js"></script>
 </body>
 </html>
